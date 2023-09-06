@@ -10,9 +10,9 @@
         <header>
             <h1>Mason Schnell</h1>
             <nav>
-                <a href="#">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./contact.html">Contact</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About</a>
+                <a href="#contact-me">Contact</a>
             </nav>
         </header>
 
@@ -21,7 +21,7 @@
             <p>Discover my work.</p>
         </figure>
 
-        <main class="portfolio text-center">
+        <main class="portfolio text-center" id="portfolio">
             <h3>My Portfolio</h3>
 
             <section class="work">
@@ -29,25 +29,48 @@
                     target="_blank"
                     href="https://masonschnell.github.io/horiseon-challenge/"
                 >
-                    <input
+                    <img
+                        src="./css/images/tech_marketing_firm.png"
+                        alt="Tech Marketing Website"
+                    />
+
+                    <!-- <input
                         type="image"
                         src="./css/images/tech_marketing_firm.png"
                         alt="Image of website made for technological marketing firm."
-                    />
+                    /> -->
                 </a>
 
                 <a
                     target="_blank"
                     href="https://masonschnell.github.io/prework-study-guide/"
                 >
-                    <input
+                    <img
+                        src="./css/images/prework_study_guide.png"
+                        alt="Study Guide Website"
+                    />
+                    <!-- <input
                         type="image"
                         src="./css/images/prework_study_guide.png"
                         alt="Image of website made to collect notes from school."
-                    />
+                    /> -->
                 </a>
             </section>
         </main>
+        <h3 class="text-center" id="about-me">About Me</h3>
+        <article class="about-me text-center">
+            Hi! I'm Mason and I'm currently enrolled in the Rutger's Full Stack
+            Development course. <br />
+            I'm a New Jersey native coming from the Jersey Shore. <br />
+            Well I look forward to working with you!
+        </article>
+
+        <address class="text-center" id="contact-me">
+            <h3>Contact Me</h3>
+            EMAIL: masonschnell1@gmail.com <br />
+            PHONE NUMBER: (555)-606-7777
+        </address>
+
         <footer>
             <p>&copy; 2023</p>
             <p>Designed and Developed by Mason Schnell</p>
