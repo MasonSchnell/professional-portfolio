@@ -1,8 +1,10 @@
 # Full Stack Developer Student Portfolio
 
-![Screenshot of website.](image-1.png)
+![Screenshot of Website](css/images/README_Screenshot.png)
 
 This website provides a template that developers can use to showcase their work and increase their chances of getting a job.
+
+[Website Link](https://masonschnell.github.io/professional-portfolio/)
 
 ## Overview
 
