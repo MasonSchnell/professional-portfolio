@@ -21,54 +21,69 @@
             <p>Discover my work.</p>
         </figure>
 
+        <img
+            id="profile"
+            src="./css/images/ProfilePic.jpg"
+            alt="Photo of Mason Schnell"
+        />
+
         <main class="portfolio text-center" id="portfolio">
             <h3>My Portfolio</h3>
 
-            <section class="work">
-                <a
-                    target="_blank"
-                    href="https://masonschnell.github.io/horiseon-challenge/"
-                >
-                    <img
-                        src="./css/images/tech_marketing_firm.png"
-                        alt="Tech Marketing Website"
-                    />
+            <!--
+                Create a top level flex box for the two sections below
+                Make sure they are vertical/block so that your first section is on top of the second 
+             -->
+            <div>
+                <section class="flex">
+                    <a
+                        target="_blank"
+                        href="https://masonschnell.github.io/horiseon-challenge/"
+                    >
+                        <img
+                            src="./css/images/tech_marketing_firm.png"
+                            alt="Tech Marketing Website"
+                        />
+                    </a>
+                </section>
 
-                    <!-- <input
-                        type="image"
-                        src="./css/images/tech_marketing_firm.png"
-                        alt="Image of website made for technological marketing firm."
-                    /> -->
-                </a>
+                <!-- 
+                    turn this into a flex box
+                    Justify the content so that it is 'between' the margins of the parent and themselves
+                -->
+                <section class="flex-bottom">
+                    <a
+                        target="_blank"
+                        href="https://masonschnell.github.io/prework-study-guide/"
+                    >
+                        <img
+                            src="./css/images/prework_study_guide.png"
+                            alt="Study Guide Website"
+                        />
+                    </a>
 
-                <a
-                    target="_blank"
-                    href="https://masonschnell.github.io/prework-study-guide/"
-                >
-                    <img
-                        src="./css/images/prework_study_guide.png"
-                        alt="Study Guide Website"
-                    />
-                    <!-- <input
-                        type="image"
-                        src="./css/images/prework_study_guide.png"
-                        alt="Image of website made to collect notes from school."
-                    /> -->
-                </a>
-            </section>
+                    <a href="#" id="coming-soon">
+                        <img
+                            src="./css/images/COMING_SOON_2.png"
+                            alt="Placeholder Image"
+                        />
+                    </a>
+                </section>
+            </div>
         </main>
         <h3 class="text-center" id="about-me">About Me</h3>
+
         <article class="about-me text-center">
             Hi! I'm Mason and I'm currently enrolled in the Rutger's Full Stack
             Development course. <br />
             I'm a New Jersey native coming from the Jersey Shore. <br />
-            Well I look forward to working with you!
+            I look forward to working with you!
         </article>
 
         <address class="text-center" id="contact-me">
             <h3>Contact Me</h3>
             EMAIL: masonschnell1@gmail.com <br />
-            PHONE NUMBER: (555)-606-7777
+            PHONE NUMBER: (609)-618-5667
         </address>
 
         <footer>
