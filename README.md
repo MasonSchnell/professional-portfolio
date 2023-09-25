@@ -27,8 +27,10 @@ This website provides a template that developers can use to showcase their work 
     - [GitHub Repository](https://github.com/MasonSchnell/prework-study-guide)
     - [Website Link](https://masonschnell.github.io/prework-study-guide/)
 
-3. **Placeholder Project**
-    - This appplication is not currently in development but its inclusion allowed me to demonstrate the formatting of the page.
+3. **Food Finder**
+    - This webpage helps users find recipes and instruct them on how to properly cook it.
+    - [GitHub Repository](https://github.com/sharktank3800/recipe_finder)
+    - [Website Link](https://sharktank3800.github.io/recipe_finder/)
 
 ## Credits
 
